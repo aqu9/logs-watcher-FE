@@ -18,11 +18,13 @@ const Log = () => {
     <div
       ref={containerRef}
       className="w-xl h-[500px] border border-white p-3 overflow-auto rounded-md ">
-      {logs.map((log, index) => (
-        <div key={index}>
-          <p>{log}</p>
-        </div>
-      ))}
+      <ul>
+        {logs.map((log, index) => (
+          <li key={index} className="mb-2 sm:mb-0">
+            <p>{log}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

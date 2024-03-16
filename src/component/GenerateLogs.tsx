@@ -25,7 +25,7 @@ const GenerateLogs = () => {
   return (
     <>
       {/* <div className=""> */}
-      <div className="flex flex-col gap-5 justify-center p-8">
+      <div className="flex flex-col gap-5 justify-center sm:p-8 p-3">
         <input
           className="bg-transparent border border-white text-white p-3 rounded-md"
           // style={{ border: error ? "1px solid red" : "" }}
